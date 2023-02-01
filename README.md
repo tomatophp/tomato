@@ -57,25 +57,22 @@ enjoy it 🍅
 
 ## Installed Plugins
 
-- [Splade](https://splade.dev/)
+- [Tomato Splade](https://splade.dev/)
 - [Tomato PHP](https://github.com/tomatophp/tomato-php)
 - [Tomato Admin](https://github.com/tomatophp/tomato-admin)
 - [Tomato Roles](https://github.com/tomatophp/tomato-roles)
+- [Tomato Components](https://github.com/tomatophp/tomato-components)
+- [Tomato Settings](https://github.com/tomatophp/tomato-settings)
 - [Laravel Media Library](https://spatie.be/docs/laravel-medialibrary/v10/introduction)
 - [Laravel Excel](https://laravel-excel.com/)
 - [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 - [Console Helpers](https://github.com/tomatophp/console-helpers)
-- [Tomato Settings](https://github.com/tomatophp/tomato-settings)
+- [Laravel WebSocket](https://beyondco.de/docs/laravel-websockets/getting-started/introduction)
 
 ## More Plugins
 
-- [Tomato Locations](https://github.com/tomatophp/tomato-locations)
-- [Tomato Translations](https://github.com/tomatophp/tomato-translations)
-- [Tomato Backup](https://github.com/tomatophp/tomato-backup)
-- [Tomato Logs](https://github.com/tomatophp/tomato-logs)
-- [Tomato Components](https://github.com/tomatophp/tomato-components)
-- [Laravel Package Generator](https://github.com/queents/laravel-package-generator)
-- [Laravel WebSocket](https://beyondco.de/docs/laravel-websockets/getting-started/introduction)
+- [Tomato Plugins](https://docs.tomatophp.com/plugins)
+
 
 to install this package you can use this command line
 
