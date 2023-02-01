@@ -1,11 +1,11 @@
 # Tomato Framework
 
-🍅 Tomato Admin Dashboard Build With FilamentPHP Theme for [Laravel Splade](https://splade.dev/)
+🍅 TomatoPHP is built to make it easy to develop web apps and API by generating files of CRUD operations and support helpers of tonnes of functions to make it easy to manage and use framework services.
 
 ## Installation
 
 ```bash
-composer create-project queents/tomato
+composer create-project tomatophp/tomato
 ```
 
 after install you can get an error because database connection, it's normal just copy .env
@@ -53,32 +53,41 @@ PASSWORD=QTS@2022
 
 enjoy it 🍅
 
-## Packages
+## Installed Plugins
 
 - [Splade](https://splade.dev/)
-- [Tomato PHP](https://github.com/queents/tomato-php)
-- [Tomato Admin](https://github.com/queents/tomato-admin)
-- [Tomato Roles](https://github.com/queents/tomato-roles)
-- [Tomato Locations](https://github.com/queents/tomato-locations)
-- [Tomato Translations](https://github.com/queents/tomato-translations)
-- [Tomato Backup](https://github.com/queents/tomato-backup)
-- [Tomato Logs](https://github.com/queents/tomato-logs)
-- [Tomato Settings](https://github.com/queents/tomato-settings)
-- [Tomato Components](https://github.com/queents/tomato-components)
-- [Console Helpers](https://github.com/queents/console-helpers)
-- [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
-- [Laravel Package Generator](https://github.com/queents/laravel-package-generator)
+- [Tomato PHP](https://github.com/tomatophp/tomato-php)
+- [Tomato Admin](https://github.com/tomatophp/tomato-admin)
+- [Tomato Roles](https://github.com/tomatophp/tomato-roles)
 - [Laravel Media Library](https://spatie.be/docs/laravel-medialibrary/v10/introduction)
 - [Laravel Excel](https://laravel-excel.com/)
+- [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
+- [Console Helpers](https://github.com/tomatophp/console-helpers)
+- [Tomato Settings](https://github.com/tomatophp/tomato-settings)
+
+## More Plugins
+
+- [Tomato Locations](https://github.com/tomatophp/tomato-locations)
+- [Tomato Translations](https://github.com/tomatophp/tomato-translations)
+- [Tomato Backup](https://github.com/tomatophp/tomato-backup)
+- [Tomato Logs](https://github.com/tomatophp/tomato-logs)
+- [Tomato Components](https://github.com/tomatophp/tomato-components)
+- [Laravel Package Generator](https://github.com/queents/laravel-package-generator)
 - [Laravel WebSocket](https://beyondco.de/docs/laravel-websockets/getting-started/introduction)
 
-## Docs
+to install this package you can use this command line
 
-look to the new docs of v1.00 on my website [Docs](https://queents.gitbook.io/tomato-admin/)
+```bash
+php artisan tomato:plugins
+```
 
 ## Support
 
-you can join our discord server to get support [VILT Admin](https://discord.gg/HUNYbgKDdx)
+you can join our discord server to get support [TomatoPHP](https://discord.gg/Xqmt35Uh)
+
+## Docs
+
+you can check docs of this package on [Docs](https://docs.tomatophp.com)
 
 ## Changelog
 
@@ -86,7 +95,6 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Credits
 
-- [Queen Tech Solutions](https://github.com/queents)
 - [Fady Mondy](https://github.com/3x1io)
 
 ## License
