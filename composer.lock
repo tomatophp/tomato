@@ -1995,16 +1995,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.49.0",
+            "version": "v9.50.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "e02d9453442ad0a6a2f5dc9df96ea0319d218026"
+                "reference": "39932773c09658ddea9045958f305e67f9304995"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/e02d9453442ad0a6a2f5dc9df96ea0319d218026",
-                "reference": "e02d9453442ad0a6a2f5dc9df96ea0319d218026",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/39932773c09658ddea9045958f305e67f9304995",
+                "reference": "39932773c09658ddea9045958f305e67f9304995",
                 "shasum": ""
             },
             "require": {
@@ -2179,7 +2179,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-01-31T14:36:47+00:00"
+            "time": "2023-02-02T20:52:46+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -3370,29 +3370,30 @@
         },
         {
             "name": "nette/utils",
-            "version": "v3.2.9",
+            "version": "v4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c"
+                "reference": "cacdbf5a91a657ede665c541eda28941d4b09c1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c",
-                "reference": "c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c",
+                "url": "https://api.github.com/repos/nette/utils/zipball/cacdbf5a91a657ede665c541eda28941d4b09c1e",
+                "reference": "cacdbf5a91a657ede665c541eda28941d4b09c1e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2 <8.3"
+                "php": ">=8.0 <8.3"
             },
             "conflict": {
-                "nette/di": "<3.0.6"
+                "nette/finder": "<3",
+                "nette/schema": "<1.2.2"
             },
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "dev-master",
-                "nette/tester": "~2.0",
+                "nette/tester": "^2.4",
                 "phpstan/phpstan": "^1.0",
-                "tracy/tracy": "^2.3"
+                "tracy/tracy": "^2.9"
             },
             "suggest": {
                 "ext-gd": "to use Image",
@@ -3406,7 +3407,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "4.0-dev"
                 }
             },
             "autoload": {
@@ -3450,9 +3451,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v3.2.9"
+                "source": "https://github.com/nette/utils/tree/v4.0.0"
             },
-            "time": "2023-01-18T03:26:20+00:00"
+            "time": "2023-02-02T10:41:53+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -5962,22 +5963,22 @@
         },
         {
             "name": "spatie/laravel-settings",
-            "version": "2.6.1",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-settings.git",
-                "reference": "4f11111eb5a26fd052ef987277fbd9bc79b7c6ef"
+                "reference": "de44cabab1c3ae4f973214c24816db4750c80bd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-settings/zipball/4f11111eb5a26fd052ef987277fbd9bc79b7c6ef",
-                "reference": "4f11111eb5a26fd052ef987277fbd9bc79b7c6ef",
+                "url": "https://api.github.com/repos/spatie/laravel-settings/zipball/de44cabab1c3ae4f973214c24816db4750c80bd9",
+                "reference": "de44cabab1c3ae4f973214c24816db4750c80bd9",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^2.13|^3.2",
                 "ext-json": "*",
-                "illuminate/database": "^8.73|^9.0",
+                "illuminate/database": "^8.73|^9.0|^10.0",
                 "php": "^7.4|^8.0",
                 "phpdocumentor/type-resolver": "^1.5",
                 "spatie/temporary-directory": "^1.3|^2.0"
@@ -5986,7 +5987,7 @@
                 "ext-redis": "*",
                 "mockery/mockery": "^1.4",
                 "nunomaduro/larastan": "^2.0",
-                "orchestra/testbench": "^6.23|^7.0",
+                "orchestra/testbench": "^6.23|^7.0|^8.0",
                 "pestphp/pest": "^1.21",
                 "pestphp/pest-plugin-laravel": "^1.2",
                 "phpstan/extension-installer": "^1.1",
@@ -6034,7 +6035,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-settings/issues",
-                "source": "https://github.com/spatie/laravel-settings/tree/2.6.1"
+                "source": "https://github.com/spatie/laravel-settings/tree/2.7.0"
             },
             "funding": [
                 {
@@ -6046,7 +6047,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-01-06T08:39:21+00:00"
+            "time": "2023-02-01T12:37:09+00:00"
         },
         {
             "name": "spatie/temporary-directory",
@@ -8505,16 +8506,16 @@
         },
         {
             "name": "tomatophp/tomato-admin",
-            "version": "v1.0.0",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tomatophp/tomato-admin.git",
-                "reference": "11f95fb8f430b0636612611413134afb9adc29e8"
+                "reference": "b09bfb15e8f2b3b1c652a61667426197c9ca7045"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tomatophp/tomato-admin/zipball/11f95fb8f430b0636612611413134afb9adc29e8",
-                "reference": "11f95fb8f430b0636612611413134afb9adc29e8",
+                "url": "https://api.github.com/repos/tomatophp/tomato-admin/zipball/b09bfb15e8f2b3b1c652a61667426197c9ca7045",
+                "reference": "b09bfb15e8f2b3b1c652a61667426197c9ca7045",
                 "shasum": ""
             },
             "require": {
@@ -8566,7 +8567,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tomatophp/tomato-admin/issues",
-                "source": "https://github.com/tomatophp/tomato-admin/tree/v1.0.0"
+                "source": "https://github.com/tomatophp/tomato-admin/tree/v1.0.3"
             },
             "funding": [
                 {
@@ -8574,7 +8575,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-01T01:36:55+00:00"
+            "time": "2023-02-03T20:28:15+00:00"
         },
         {
             "name": "tomatophp/tomato-breeze",
@@ -8582,12 +8583,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tomatophp/tomato-breeze.git",
-                "reference": "9fdca9c55f1e7791dccb6a38a3b2170c5d05495e"
+                "reference": "247b8ca3a952901535e40a99a8e20cdb93cd5ee3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tomatophp/tomato-breeze/zipball/9fdca9c55f1e7791dccb6a38a3b2170c5d05495e",
-                "reference": "9fdca9c55f1e7791dccb6a38a3b2170c5d05495e",
+                "url": "https://api.github.com/repos/tomatophp/tomato-breeze/zipball/247b8ca3a952901535e40a99a8e20cdb93cd5ee3",
+                "reference": "247b8ca3a952901535e40a99a8e20cdb93cd5ee3",
                 "shasum": ""
             },
             "require": {
@@ -8660,7 +8661,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-01T01:31:33+00:00"
+            "time": "2023-02-01T10:14:19+00:00"
         },
         {
             "name": "tomatophp/tomato-components",
@@ -8730,16 +8731,16 @@
         },
         {
             "name": "tomatophp/tomato-php",
-            "version": "v1.0.0",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tomatophp/tomato-php.git",
-                "reference": "b71c04ee1c2a87fb9cc4ae093b87dab3447ef74b"
+                "reference": "d470f7b418188aec6f17070c3d7104eba79135e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tomatophp/tomato-php/zipball/b71c04ee1c2a87fb9cc4ae093b87dab3447ef74b",
-                "reference": "b71c04ee1c2a87fb9cc4ae093b87dab3447ef74b",
+                "url": "https://api.github.com/repos/tomatophp/tomato-php/zipball/d470f7b418188aec6f17070c3d7104eba79135e4",
+                "reference": "d470f7b418188aec6f17070c3d7104eba79135e4",
                 "shasum": ""
             },
             "require": {
@@ -8787,7 +8788,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tomatophp/tomato-php/issues",
-                "source": "https://github.com/tomatophp/tomato-php/tree/v1.0.0"
+                "source": "https://github.com/tomatophp/tomato-php/tree/v1.0.2"
             },
             "funding": [
                 {
@@ -8795,7 +8796,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-01T01:39:24+00:00"
+            "time": "2023-02-02T17:08:09+00:00"
         },
         {
             "name": "tomatophp/tomato-plugins",
@@ -10631,16 +10632,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.28",
+            "version": "9.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "954ca3113a03bf780d22f07bf055d883ee04b65e"
+                "reference": "9a52e8385f3e432d7e8ecab72c4d211a67223285"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/954ca3113a03bf780d22f07bf055d883ee04b65e",
-                "reference": "954ca3113a03bf780d22f07bf055d883ee04b65e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9a52e8385f3e432d7e8ecab72c4d211a67223285",
+                "reference": "9a52e8385f3e432d7e8ecab72c4d211a67223285",
                 "shasum": ""
             },
             "require": {
@@ -10682,7 +10683,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "9.5-dev"
+                    "dev-master": "9.6-dev"
                 }
             },
             "autoload": {
@@ -10713,7 +10714,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.28"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.1"
             },
             "funding": [
                 {
@@ -10729,7 +10730,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-14T12:32:24+00:00"
+            "time": "2023-02-03T19:31:30+00:00"
         },
         {
             "name": "protonemedia/laravel-dusk-fakes",
@@ -11166,16 +11167,16 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "5.1.4",
+            "version": "5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "1b5dff7bb151a4db11d49d90e5408e4e938270f7"
+                "reference": "830c43a844f1f8d5b7a1f6d6076b784454d8b7ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/1b5dff7bb151a4db11d49d90e5408e4e938270f7",
-                "reference": "1b5dff7bb151a4db11d49d90e5408e4e938270f7",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/830c43a844f1f8d5b7a1f6d6076b784454d8b7ed",
+                "reference": "830c43a844f1f8d5b7a1f6d6076b784454d8b7ed",
                 "shasum": ""
             },
             "require": {
@@ -11217,7 +11218,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/environment/issues",
-                "source": "https://github.com/sebastianbergmann/environment/tree/5.1.4"
+                "source": "https://github.com/sebastianbergmann/environment/tree/5.1.5"
             },
             "funding": [
                 {
@@ -11225,7 +11226,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-04-03T09:37:03+00:00"
+            "time": "2023-02-03T06:03:51+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -11539,16 +11540,16 @@
         },
         {
             "name": "sebastian/recursion-context",
-            "version": "4.0.4",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/recursion-context.git",
-                "reference": "cd9d8cf3c5804de4341c283ed787f099f5506172"
+                "reference": "e75bd0f07204fec2a0af9b0f3cfe97d05f92efc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/cd9d8cf3c5804de4341c283ed787f099f5506172",
-                "reference": "cd9d8cf3c5804de4341c283ed787f099f5506172",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/e75bd0f07204fec2a0af9b0f3cfe97d05f92efc1",
+                "reference": "e75bd0f07204fec2a0af9b0f3cfe97d05f92efc1",
                 "shasum": ""
             },
             "require": {
@@ -11587,10 +11588,10 @@
                 }
             ],
             "description": "Provides functionality to recursively process PHP variables",
-            "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
+            "homepage": "https://github.com/sebastianbergmann/recursion-context",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
-                "source": "https://github.com/sebastianbergmann/recursion-context/tree/4.0.4"
+                "source": "https://github.com/sebastianbergmann/recursion-context/tree/4.0.5"
             },
             "funding": [
                 {
@@ -11598,7 +11599,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-26T13:17:30+00:00"
+            "time": "2023-02-03T06:07:39+00:00"
         },
         {
             "name": "sebastian/resource-operations",
@@ -11657,16 +11658,16 @@
         },
         {
             "name": "sebastian/type",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/type.git",
-                "reference": "fb3fe09c5f0bae6bc27ef3ce933a1e0ed9464b6e"
+                "reference": "75e2c2a32f5e0b3aef905b9ed0b179b953b3d7c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/fb3fe09c5f0bae6bc27ef3ce933a1e0ed9464b6e",
-                "reference": "fb3fe09c5f0bae6bc27ef3ce933a1e0ed9464b6e",
+                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/75e2c2a32f5e0b3aef905b9ed0b179b953b3d7c7",
+                "reference": "75e2c2a32f5e0b3aef905b9ed0b179b953b3d7c7",
                 "shasum": ""
             },
             "require": {
@@ -11701,7 +11702,7 @@
             "homepage": "https://github.com/sebastianbergmann/type",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/type/issues",
-                "source": "https://github.com/sebastianbergmann/type/tree/3.2.0"
+                "source": "https://github.com/sebastianbergmann/type/tree/3.2.1"
             },
             "funding": [
                 {
@@ -11709,7 +11710,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-12T14:47:03+00:00"
+            "time": "2023-02-03T06:13:03+00:00"
         },
         {
             "name": "sebastian/version",
