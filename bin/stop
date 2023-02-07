@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Fail the whole script if any command fails
+set -euo pipefail
+
+# Stop Laravel Sail and the docker containers
+vendor/bin/sail stop
