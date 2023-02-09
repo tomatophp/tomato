@@ -21,7 +21,7 @@ fi
 # Create environment file if it doesn't exist yet
 if [ ! -f .env ]
 then
-    cp .env.example .env
+    sed 's/APP_URL=.*/APP_URL=http:\/\/localhost/g;s/DB_HOST=.*/DB_HOST=mysql/g;s/REDIS_HOST=.*/REDIS_HOST=redis/g;s/MAIL_HOST=.*/MAIL_HOST=mailpit/g' < .env.example > .env
     FRESH=true
 fi
 
