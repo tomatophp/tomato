@@ -18,6 +18,7 @@ import TomatoTel from "../../vendor/tomatophp/tomato-components/resources/js/com
 import TomatoSelect from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoSelect.vue";
 import TomatoArtisan from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoArtisan.vue";
 import TomatoCode from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoCode.vue";
+import TomatoDraggable from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoDraggable.vue";
 
 const Tomato = {
     install(app, options) {
@@ -41,6 +42,7 @@ createApp({
         transform_anchors: false,
         progress_bar: true,
     })
+    .component("TomatoDraggable", TomatoDraggable)
     .component("TomatoRoles", TomatoRoles)
     .component("TomatoRepeater", TomatoRepeater)
     .component("TomatoColor", TomatoColor)
