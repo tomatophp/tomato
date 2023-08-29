@@ -12,7 +12,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.0.2",
+        "php": "^8.2|^8.0",
         "beyondcode/laravel-websockets": "^1.13",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.0",
@@ -22,8 +22,7 @@
         "pusher/pusher-php-server": "^7.2",
         "spatie/laravel-medialibrary": "^10.7",
         "tomatophp/tomato-admin": "^1.0",
-        "tomatophp/tomato-roles": "^1.0",
-        "tomatophp/tomato-settings": "^1.0"
+        "tomatophp/tomato-plugins": "^1.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.7",
