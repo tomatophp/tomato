@@ -9,8 +9,8 @@ module.exports = {
         "./storage/framework/views/*.php",
         "./resources/views/**/*.blade.php",
         "./resources/js/**/*.vue",
-        "./packages/tomatophp/**/resources/views/**/*.blade.php",
-        "./packages/tomatophp/**/resources/js/**/*.vue",
+        "./vendor/tomatophp/**/resources/views/**/*.blade.php",
+        "./vendor/tomatophp/**/resources/js/**/*.vue",
     ],
 
     darkMode: "class", // or 'media' or 'class'

@@ -1426,6 +1426,11 @@ vite@^4.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
+vue-draggable-next@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/vue-draggable-next/-/vue-draggable-next-2.2.1.tgz#adbe98c74610cca8f4eb63f92042681f96920451"
+  integrity sha512-EAMS1IRHF0kZO0o5PMOinsQsXIqsrKT1hKmbICxG3UEtn7zLFkLxlAtajcCcUTisNvQ6TtCB5COjD9a1raNADw==
+
 vue3-editor@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/vue3-editor/-/vue3-editor-0.1.1.tgz#4be5f5029599609f31a04dee553de5f54c7ec540"

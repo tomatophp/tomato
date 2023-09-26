@@ -30,6 +30,7 @@
         "postcss-import": "^15.1.0",
         "tailwindcss-rtl": "^0.9.0",
         "tippy.js": "^6.3.7",
+        "vue-draggable-next": "^2.2.1",
         "vue3-editor": "^0.1.1",
         "vue3-swatches": "^1.2.3",
         "vue3-tel-input": "^1.0.4"
