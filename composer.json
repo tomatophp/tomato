@@ -13,6 +13,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.2|^8.0",
+        "ext-bcmath": "*",
+        "ext-sqlite3": "*",
         "beyondcode/laravel-websockets": "^1.13",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.0",
@@ -21,8 +23,10 @@
         "maatwebsite/excel": "^3.1",
         "pusher/pusher-php-server": "^7.2",
         "spatie/laravel-medialibrary": "^10.7",
-        "tomatophp/tomato-admin": "^1.0",
-        "tomatophp/tomato-plugins": "^1.0"
+        "tomatophp/tomato-admin": "^1.2",
+        "tomatophp/tomato-backup": "^1.1",
+        "tomatophp/tomato-logs": "^1.1",
+        "tomatophp/tomato-translations": "^1.2"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.7",
