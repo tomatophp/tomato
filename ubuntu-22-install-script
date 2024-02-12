@@ -1,0 +1,30 @@
+#!/bin/bash
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
+sudo apt-get -y install curl git network-manager libnss3-tools jq xsel software-properties-common php8.2-fpm php8.2-cli php8.2-bcmath php8.2-common php8.2-curl php8.2-mbstring php8.2-opcache php8.2-readline php8.2-xml php8.2-zip php8.2-mysql php8.2-gd mysql-server supervisor
+sudo mysql -e "create database bing;"
+sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '12345678';"
+sudo mysql -e "FLUSH PRIVILEGES;"
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+composer --version
+composer global require genesisweb/valet-linux-plus
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+valet install
+cd ~/Sites/bing
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan config:cache
+valet link
+valet secure
+php artisan migrate
+php artisan config:cache
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+nvm install 18
+nvm use 18
+npm -g i yarn
+yarn
+yarn build
+valet open
