@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c884d420ba8183c7d533bff9d293e26",
+    "content-hash": "292773be5be2f8abdd73f0dd8f673b79",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -8190,16 +8190,16 @@
         },
         {
             "name": "tomatophp/tomato-translations",
-            "version": "v1.2.4",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tomatophp/tomato-translations.git",
-                "reference": "a273f8d6687de1783aff4cae6e242b4320ab1051"
+                "reference": "dcf8cdabd7e3994c43e5ddda5c70b32abcf1ca48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tomatophp/tomato-translations/zipball/a273f8d6687de1783aff4cae6e242b4320ab1051",
-                "reference": "a273f8d6687de1783aff4cae6e242b4320ab1051",
+                "url": "https://api.github.com/repos/tomatophp/tomato-translations/zipball/dcf8cdabd7e3994c43e5ddda5c70b32abcf1ca48",
+                "reference": "dcf8cdabd7e3994c43e5ddda5c70b32abcf1ca48",
                 "shasum": ""
             },
             "require": {
@@ -8243,7 +8243,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tomatophp/tomato-translations/issues",
-                "source": "https://github.com/tomatophp/tomato-translations/tree/v1.2.4"
+                "source": "https://github.com/tomatophp/tomato-translations/tree/v1.2.5"
             },
             "funding": [
                 {
@@ -8251,7 +8251,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-24T13:38:29+00:00"
+            "time": "2024-04-24T14:01:00+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
