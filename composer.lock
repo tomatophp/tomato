@@ -7954,16 +7954,16 @@
         },
         {
             "name": "tomatophp/tomato-admin",
-            "version": "v1.2.20",
+            "version": "v1.2.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tomatophp/tomato-admin.git",
-                "reference": "ac768e7cb1494d86e556fc13b5db66ca821533f1"
+                "reference": "67131a9bad4463b33b70921130c2856ce6b6d010"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tomatophp/tomato-admin/zipball/ac768e7cb1494d86e556fc13b5db66ca821533f1",
-                "reference": "ac768e7cb1494d86e556fc13b5db66ca821533f1",
+                "url": "https://api.github.com/repos/tomatophp/tomato-admin/zipball/67131a9bad4463b33b70921130c2856ce6b6d010",
+                "reference": "67131a9bad4463b33b70921130c2856ce6b6d010",
                 "shasum": ""
             },
             "require": {
@@ -8024,7 +8024,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tomatophp/tomato-admin/issues",
-                "source": "https://github.com/tomatophp/tomato-admin/tree/v1.2.20"
+                "source": "https://github.com/tomatophp/tomato-admin/tree/v1.2.21"
             },
             "funding": [
                 {
@@ -8032,7 +8032,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-24T13:38:42+00:00"
+            "time": "2024-04-24T14:18:24+00:00"
         },
         {
             "name": "tomatophp/tomato-plugins",
