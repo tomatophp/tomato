@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Display Help Text
+if [ $# -eq 1 ] && [ $1 == '--help' ]
+then
+    echo "Usage: bin/test [--tests|--dusk]"
+    echo "--tests : Only run unit and feature tests"
+    echo "--dusk  : Only run dusk tests"
+    exit 0
+fi
+
+# Fail the whole script if any command fails
+set -euo pipefail
+trap "echo \"[INFO] To stop the docker container you need to run: bin/stop\"" EXIT
+
+# Get Laravel Sail up and running in the background
+vendor/bin/sail up -d --wait
+
+# Run unit and feature tests
+if [[ $# -eq 0 ]] || [[ $1 == '--tests' ]]
+then
+    vendor/bin/sail test --stop-on-failure
+fi
+
+# Run dusk tests
+if [[ $# -eq 0 ]] || [[ $1 == '--dusk' ]]
+then
+    vendor/bin/sail artisan migrate:fresh --env=dusk --force --quiet
+    vendor/bin/sail dusk --env=dusk --stop-on-failure
+fi
+

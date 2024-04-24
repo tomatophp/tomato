@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Fail the whole script if any command fails
+set -euo pipefail
+trap "echo \"[INFO] To stop the docker container you need to run: bin/stop\"" EXIT
+
+# Get Laravel Sail up and running in the background
+vendor/bin/sail up -d --wait
+
+# Update composer dependencies
+vendor/bin/sail composer update
+cp composer.lock storage/sail/composer.lock
+
+# Update dependencies
+if [ ! -f yarn.lock ]
+then
+    vendor/bin/sail npm update
+    vendor/bin/sail npm run build
+    cp package-lock.json storage/sail/package-lock.json
+else
+    vendor/bin/sail yarn upgrade
+    vendor/bin/sail yarn run build
+    cp yarn.lock storage/sail/yarn.lock
+fi
